@@ -3,9 +3,13 @@
 #PanelUI-menu-button {display: none;}
 
 /* Remove from context menu.*/
-
 #context-sendvideo, #context-back, #context-bookmarklink, #context-bookmarkpage, #context-forward, #context-inspect, #context-inspect, #context-navigation, #context-openlink, #context-openlinkinusercontext-menu, #context-openlinkprivate, #context-pocket, #context-reload, #context-savelinktopocket, #context-selectall, #context-sendlinktodevice, #context-sendpagetodevice, #context-sep-navigation, #context-sep-sendlinktodevice, #context-sep-sendpagetodevice, #context-stop, #context-savelink, #context-savepage, #context-viewinfo, #context-viewpartialsource-selection, #context-viewbgimage, #context-sendimage, #context-setDesktopBackground, #context-viewimageinfo, #context-viewsource, #context-sep-navigation, #context-sep-open, #context-sep-selectall, #context-sep-sendlinktodevic, #context-sep-sendpagetodevice, #context-sep-viewbgimage, #context-sep-viewsource, #inspect-separator, #context-keywordfield, #spell-check-enabled, #spell-dictionaries, #fill-login, #fill-login-separator, #spell-separator, #spell-add-to-dictionary, #spell-suggestions-separator, #context-undo, #context-sep-undo, #context-sep-paste, #inspect-separator, #context-print-selection, #_ddc359d1-844a-42a7-9aa1-88a850a938a8_-menuitem-0 {
     display: none !important 
+}
+
+/* Remove all context menu seperators*/
+#contentAreaContextMenu menuseparator {
+    display: none !important;
 }
 
 /*Hide Bookmark Icons in toolbar/bookmark bar*/
@@ -20,7 +24,6 @@
 }
 
 /* Remove from tab menu.*/
-
 #tabContextMenu #context_selectAllTabs, #context_bookmarkTab, #context_pinTab, #tabContextMenu #context_pinSelectedTabs, #tabContextMenu #context_duplicateTab, #tabContextMenu #context_openTabInWindow, #tabContextMenu #ToDevice_separator, #tabContextMenu #context_sendTabToDevice, #tabContextMenu #context_bookmarkAllTabs, #tabContextMenu #context_closeOtherTabs~menuseparator, #tabContextMenu #context_sendTabToDevice_separator, #context_shareTabURL {
     display: none !important 
 }
@@ -44,7 +47,6 @@
 #placesContext_createBookmark, #placesContext_open, #placesContext_open\:newprivatewindow, #placesContext_open\:newwindow, #placesContext_deleteHost { display:none!important; }
 
 /* Remove Bookmarks Open All in Tabs*/
-@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"); 
 .openintabs-menuseparator,
 .openintabs-menuitem,
 .bookmarks-actions-menuseparator 
@@ -55,7 +57,12 @@
     display: none !important 
 }
 
-/* Remove all context menu seperators*/
-#contentAreaContextMenu menuseparator {
-    display: none !important;
+/* Remove padding between Menu bar and Tab bar*/
+#toolbar-menubar .titlebar-button {
+    padding-block: 0 !important;
+}
+
+/* Square Tabs*/
+.tab-background {
+    border-radius: 0px !important;
 }
