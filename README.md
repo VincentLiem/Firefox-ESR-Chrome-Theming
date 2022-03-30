@@ -1,3 +1,3 @@
 # Firefox-ESR-Chrome-Theming
 
-Removing items from Firefox 91 ESR interface
+For Firefox 91 ESR
