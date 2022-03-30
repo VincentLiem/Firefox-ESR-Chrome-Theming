@@ -1,5 +1,5 @@
 
-/* Remove the Hamburger Button */
+/* Remove the hamburger button */
 #PanelUI-menu-button {display: none;}
 
 /* Remove from context menu.*/
@@ -12,12 +12,12 @@
     display: none !important;
 }
 
-/*Hide Bookmark Icons in toolbar/bookmark bar*/
+/*Hide bookmark icons in toolbar/bookmark bar*/
 #personal-bookmarks .bookmark-item > .toolbarbutton-icon{
  display:none!important;
 }
 
-/* Remove Page Actions Menu */
+/* Remove page actions menu */
 #pageActionButton 
 {
   display: none !important;
@@ -37,16 +37,15 @@
 /*Remove history app menu*/
 #appMenuViewHistorySidebar,
 #appMenuClearRecentHistory,
-/* #appMenuRecentlyClosedTabs, */
 #appMenuRecentlyClosedWindows,
-.subview-subheader /* Recent History */ {
+.subview-subheader {
   display: none !important;
 }
 
-/* Remove Right Click History Drop Down*/
+/* Remove right click history drop down*/
 #placesContext_createBookmark, #placesContext_open, #placesContext_open\:newprivatewindow, #placesContext_open\:newwindow, #placesContext_deleteHost { display:none!important; }
 
-/* Remove Bookmarks Open All in Tabs*/
+/* Remove bookmarks open all in tabs*/
 .openintabs-menuseparator,
 .openintabs-menuitem,
 .bookmarks-actions-menuseparator 
@@ -57,7 +56,7 @@
     display: none !important 
 }
 
-/* Remove padding between Menu bar and Tab bar*/
+/* Remove padding between menu bar and tab bar*/
 #toolbar-menubar .titlebar-button {
     padding-block: 0 !important;
 }
