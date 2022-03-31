@@ -1,3 +1,8 @@
+/* Increase tab width*/
+.tabbrowser-tab {
+    max-width: 250px !important;
+}
+
 /* Remove padding between menu bar and tab bar*/
 #toolbar-menubar .titlebar-button {
     padding-block: 0 !important;
