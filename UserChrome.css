@@ -9,6 +9,11 @@
     margin-block: 1px !important;
 }
 
+/* Make mute/unmute on favicon bigger*/
+.tab-icon-overlay {
+    padding: 0px !important;
+}
+
 /* Remove the hamburger button */
 #PanelUI-menu-button {
     display: none !important;
