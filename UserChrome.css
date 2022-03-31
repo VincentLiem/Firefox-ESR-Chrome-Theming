@@ -1,3 +1,12 @@
+/* Remove padding between menu bar and tab bar*/
+#toolbar-menubar .titlebar-button {
+    padding-block: 0 !important;
+}
+
+/* Square tabs*/
+.tab-background {
+    border-radius: 0px !important;
+}
 
 /* Remove the hamburger button */
 #PanelUI-menu-button {display: none;}
@@ -31,7 +40,7 @@
     display: none !important 
 }
 
-/* Remove close tab x.*/
+/* Remove close tab X*/
 #tabbrowser-tabs .tabbrowser-tab .tab-close-button { display:none!important; }
 
 /*Remove history app menu*/
@@ -54,14 +63,4 @@
 /* Hide DownloadThemAll! context menu*/
 #_ddc359d1-844a-42a7-9aa1-88a850a938a8_-menuitem-1{
     display: none !important 
-}
-
-/* Remove padding between menu bar and tab bar*/
-#toolbar-menubar .titlebar-button {
-    padding-block: 0 !important;
-}
-
-/* Square Tabs*/
-.tab-background {
-    border-radius: 0px !important;
 }
