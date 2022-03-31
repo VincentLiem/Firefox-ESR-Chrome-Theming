@@ -6,6 +6,7 @@
 /* Square tabs*/
 .tab-background {
     border-radius: 0px !important;
+    margin-block: 1px  !important;
 }
 
 /* Remove the hamburger button */
