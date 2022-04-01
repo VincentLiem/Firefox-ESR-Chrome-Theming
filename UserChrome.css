@@ -1,12 +1,12 @@
-/* Remove padding between menu bar and tab bar*/
+/* Remove space between menu bar and tab bar*/
 #toolbar-menubar .titlebar-button {
+    margin-block: 0 !important;
     padding-block: 0 !important;
 }
 
 /* Square tabs*/
 .tab-background {
     border-radius: 0px !important;
-    margin-block: 1px !important;
 }
 
 /* Increase tab width*/
