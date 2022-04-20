@@ -19,6 +19,12 @@
     padding: 0px !important;
 }
 
+/* Hide URL bar bookmark star and tracking shield*/
+#tracking-protection-icon,
+#star-button {
+    display: none !important;
+}
+
 /* Remove the hamburger button */
 #PanelUI-menu-button {
     display: none !important;
