@@ -19,8 +19,14 @@
     padding: 0px !important;
 }
 
+/* Remove space before tabs in windowed mode*/
+.titlebar-spacer {
+    display: none !important;
+}
+
 /* Hide URL bar bookmark star and tracking shield*/
 #tracking-protection-icon,
+#tracking-protection-icon-container,
 #star-button {
     display: none !important;
 }
