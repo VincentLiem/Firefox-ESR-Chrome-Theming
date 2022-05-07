@@ -2,5 +2,6 @@
 
 For Firefox 91 ESR
 
-![Firefox](https://user-images.githubusercontent.com/96896686/161210327-9032dd42-e952-4648-81ba-3fe191327d65.png)
+
+![Firefox](https://user-images.githubusercontent.com/96896686/167243535-83e38405-414b-4388-b159-d4557e689cf4.png)
 <caption>CSS with Dark Theme</caption>
