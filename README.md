@@ -1,6 +1,6 @@
 # Firefox-ESR-Chrome-Theming
 
-For Firefox 91 ESR
+For Firefox 102 ESR
 
 
 ![Firefox](https://user-images.githubusercontent.com/96896686/167243535-83e38405-414b-4388-b159-d4557e689cf4.png)
