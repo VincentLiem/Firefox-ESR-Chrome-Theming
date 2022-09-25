@@ -161,3 +161,9 @@
 #_ddc359d1-844a-42a7-9aa1-88a850a938a8_-menuitem-1 {
     display: none !important;
 }
+
+/* Remove Firefox Suggest from address bar*/
+.urlbarView-row[label="Firefox Suggest"]::before,
+.urlbarView-row[label="Firefox Suggest"] {
+    display: none !important;
+}
