@@ -119,7 +119,7 @@
 #tabContextMenu #context_bookmarkAllTabs,
 #tabContextMenu #context_closeOtherTabs~menuseparator,
 #tabContextMenu #context_sendTabToDevice_separator,
-#context_shareTabURL {
+.share-tab-url-item  {
     display: none !important;
 }
 
