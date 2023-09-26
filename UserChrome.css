@@ -164,7 +164,8 @@
 }
 
 /* Remove Extensions button*/
-#unified-extensions-button, #unified-extensions-button > .toolbarbutton-icon{
+#unified-extensions-button,
+#unified-extensions-button>.toolbarbutton-icon {
     width: 0px !important;
     padding: 0px !important;
-    }
+}
