@@ -82,8 +82,7 @@
 #context-sep-undo,
 #context-sep-paste,
 #inspect-separator,
-#context-print-selection,
-#_ddc359d1-844a-42a7-9aa1-88a850a938a8_-menuitem-0 {
+#context-print-selection {
     display: none !important;
 }
 
@@ -153,7 +152,9 @@
 }
 
 /* Hide DownloadThemAll! context menu*/
-#_ddc359d1-844a-42a7-9aa1-88a850a938a8_-menuitem-1 {
+#_ddc359d1-844a-42a7-9aa1-88a850a938a8_-menuitem-0,
+#_ddc359d1-844a-42a7-9aa1-88a850a938a8_-menuitem-1,
+#_ddc359d1-844a-42a7-9aa1-88a850a938a8_-menuitem-2 {
     display: none !important;
 }
 
