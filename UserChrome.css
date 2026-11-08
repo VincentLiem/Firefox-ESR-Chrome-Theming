@@ -82,7 +82,9 @@
 #context-sep-undo,
 #context-sep-paste,
 #inspect-separator,
-#context-print-selection {
+#context-print-selection,
+#context_closeDuplicateTabs,
+#allTabsMenu-closeDuplicateTab {
     display: none !important;
 }
 
